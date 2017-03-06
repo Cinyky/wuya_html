@@ -40,7 +40,6 @@ $(function() {
 				str	+="  	<div class='media-body'>";
 				str	+="  	  <a>分享</a>";
 				str	+="       <a>收藏</a>";
-				str	+="       <a>点赞</a>";
 				str	+="       <a class='shield' data-toggle='shield_tooltip' data-placement='top' title='不再显示在首页推荐中'>屏蔽</a>";
 				str	+="       <a class='' data-toggle='modal' data-target='#report'>";
 				str	+="			举报";
