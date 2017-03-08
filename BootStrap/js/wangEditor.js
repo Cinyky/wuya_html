@@ -3304,10 +3304,10 @@ _e(function (E, $) {
     // 表情包
     E.config.emotionsShow = 'icon'; // 显示项，默认为'icon'，也可以配置成'value'
     E.config.emotions = {
-//         'default': {
-//             title: '默认',
-//             data: 'emotions/emotions.data'
-//         },
+         'default': {
+             title: '默认',
+             data: 'emotions/xinliang.data'
+         },
         'weibo': {
             title: '微博表情',
             data: [
