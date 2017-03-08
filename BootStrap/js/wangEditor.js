@@ -3306,8 +3306,13 @@ _e(function (E, $) {
     E.config.emotions = {
          'default': {
              title: '默认',
+             data: 'emotions/emotions.data'
+         },
+         'xinliang': {
+             title: 'sina',
              data: 'emotions/xinliang.data'
          },
+         
         'weibo': {
             title: '微博表情',
             data: [
