@@ -112,7 +112,7 @@
           //     selected: '<button style="font-size:20px; margin-top:5px;"><i>I</i></button>'
           // };
         editor.create();
-	  // $("#answer-editor").removeAttr("style");
+	  $("#answer-editor").removeAttr("style");
 
   });
 

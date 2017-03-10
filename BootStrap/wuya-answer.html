@@ -75,7 +75,7 @@
                   <div class="pull-right">
                   		<a class="btn btn-primary">分享问题</a>
                   	    <a class="btn btn-primary">收藏问题</a>
-                  		<a class="btn btn-primary" data-toggle="modal" data-target="#answer" onclick="fixHeight()">写回答</a>
+                  		<a class="btn btn-primary" data-toggle="modal" data-target="#answer" >写回答</a>
                   </div>
               
           </div>
@@ -145,10 +145,8 @@
 
 
                 <!--editor-->
-                <div class="wang-container">
                    <div  id="answer-editor" >
                    </div>
-                </div
           </div>
           
           
@@ -257,6 +255,28 @@
           <div class="modal-footer">
             <a class="btn btn-primary" data-dismiss="modal">关闭</a>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="answer" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title">无涯-提出你的疑惑</h4>
+          </div>
+    
+          <div class="editor-container">
+              <div id="answer-editor">
+                  <p>请输入内容...</p>
+              </div>
+          </div>
+
+           <div class="modal-footer">
+            <a class="btn btn-primary" data-dismiss="modal">关闭</a>
+          </div>
+
         </div>
       </div>
     </div>

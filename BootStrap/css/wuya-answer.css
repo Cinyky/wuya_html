@@ -1,4 +1,9 @@
-#answer-editor {
-            width: 100%;
+
+        #answer-editor {
             height: 300px;
+        }
+        .editor-container {
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
         }
