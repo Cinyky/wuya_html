@@ -3,12 +3,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="js/jquery.min.js" ></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/wangEditor.js"></script>
     <script type="text/javascript" src="js/wuya-answer.js" ></script>
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/wuya-personal.css" />
-     <link rel="stylesheet" type="text/css" href="css/wangEditor.min.css">
     <title>personal-info</title>
   </head>
 <body>
@@ -75,7 +73,7 @@
                   <div class="pull-right">
                   		<a class="btn btn-primary">分享问题</a>
                   	    <a class="btn btn-primary">收藏问题</a>
-                  		<a class="btn btn-primary" data-toggle="modal" data-target="#answer">写回答</a>
+                  		<a class="btn btn-primary" data-toggle="modal" data-target="#answer" onclick="fixHeight()">写回答</a>
                   </div>
               
           </div>
@@ -139,6 +137,14 @@
 			              </div>
 		                </div>
                 </div>
+
+
+
+
+        <!--       <div class="editor-container">
+                  <div  id="answer-editor" style="height:400px;max-height:500px;">
+                  </div>
+              </div> -->
           </div>
           
           
@@ -185,6 +191,7 @@
         </div>
       </div>
     </div>
+
 
     
     
@@ -251,31 +258,9 @@
       </div>
     </div>
     
-    
-    <!--
-    	作者：1079276272@qq.com
-    	时间：2017-02-15
-    	描述：模态框3 回答
-      style="position:absolute;left: 4%;bottom: 40%;display: inline-block;"
-    -->
-    <div class="fade modal" id="answer">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h4 class="modal-title">无涯-回答你的疑惑</h4>
-          </div>
-          <div  id="answer-editor" style="height:500px;max-height:500px;">
-          	<p></p>
-          </div>
-          <div class="modal-footer">
-                      <a class="btn btn-primary btn-block">提交回答</a>
-          </div>
 
-          
-        </div>
-      </div>
-    </div>
+            
+      
     
 
 </body></html>
