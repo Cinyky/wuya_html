@@ -52,12 +52,9 @@
               'head',
               'unorderlist',
               'orderlist',
-              'alignleft',
-              'aligncenter',
-              'alignright',
               '|',
               'insertcode',
-               'table',
+               'img',
               'emotion',
                'location'
           ];
@@ -89,7 +86,7 @@
              console.log("imgs:"+imgs);
          };
 		
-         editor.config.codeDefaultLang = 'javascript'
+         // editor.config.codeDefaultLang = 'javascript'
            // 取消过滤js
            // editor.config.jsFilter = false;
 
@@ -97,10 +94,10 @@
            // editor.config.pasteFilter = false;
 
            //设置 z-index
-           editor.config.zindex = 20000;
+           // editor.config.zindex = 20000;
 
            //语言
-           editor.config.lang = wangEditor.langs['en'];
+           // editor.config.lang = wangEditor.langs['en'];
 
           // 自定义菜单UI
           // editor.UI.menus.bold = {
@@ -112,8 +109,8 @@
           //     selected: '<button style="font-size:20px; margin-top:5px;"><i>I</i></button>'
           // };
         editor.create();
-	  $("#answer-editor").removeAttr("style");
-
+//	  $("#answer-editor").removeAttr("style");
+		// $("#answer-editor").attr("height","200px");
   });
 
 
