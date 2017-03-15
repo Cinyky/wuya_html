@@ -4,14 +4,14 @@
   	   var editor = new wangEditor('answer-editor');
 
          // 上传图片
-         editor.config.uploadImgUrl = '/upload';
-         editor.config.uploadParams = {
-               token1: 'abcde',
-               token2: '12345'
-         };
-         editor.config.uploadHeaders = {
-               'Accept' : 'text/x-json'
-         }
+//       editor.config.uploadImgUrl = '/upload';
+//       editor.config.uploadParams = {
+//             token1: 'abcde',
+//             token2: '12345'
+//       };
+//       editor.config.uploadHeaders = {
+//             'Accept' : 'text/x-json'
+//       }
          editor.config.uploadImgFileName = 'myFileName';
 
          //隐藏网络图片
@@ -24,7 +24,7 @@
           editor.config.pasteText = true;
 
            // 跨域上传
-           // editor.config.uploadImgUrl = 'http: localhost:8012/upload';
+              editor.config.uploadImgUrl = 'http://localhost:8080/wuya/test/upload';
 
            //第三方上传
           // editor.config.customUpload = true;
